@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="0" y="-4" width="1065" height="666"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="d5e29" binding="mainMenu">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="51334" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Start"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="669c3" binding="panel2" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="6859d" class="javax.swing.JTextField" binding="loginTextField">
+                    <constraints>
+                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="97483" class="javax.swing.JPasswordField" binding="passwordField">
+                    <constraints>
+                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1ded2" class="javax.swing.JButton" binding="loginButton">
+                    <constraints>
+                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Yu Gothic UI"/>
+                      <text value="Zaloguj"/>
+                    </properties>
+                  </component>
+                  <vspacer id="2c8ec">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="ca8f4">
+                    <constraints>
+                      <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="11c7b">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="7a080" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Yu Gothic UI"/>
+                      <text value="Login"/>
+                    </properties>
+                  </component>
+                  <component id="710d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Yu Gothic UI"/>
+                      <text value="Hasło"/>
+                    </properties>
+                  </component>
+                  <hspacer id="9002a">
+                    <constraints>
+                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="e792c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13352673"/>
+                      <font name="Bebas" size="48" style="0"/>
+                      <text value="SYSTEM BIBLIOTECZNY"/>
+                    </properties>
+                  </component>
+                  <vspacer id="9de28">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="316ef">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="e5aa9">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="f88a">
+                    <constraints>
+                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <vspacer id="cf1ca">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="3078b">
+                    <constraints>
+                      <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="fba39" class="javax.swing.JButton" binding="saveChangesButton">
+                    <constraints>
+                      <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Yu Gothic UI"/>
+                      <text value="Zapisz zmiany"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="1684b" binding="panelA" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Zarządzanie biblioteką"/>
+            </constraints>
+            <properties>
+              <font name="Constantia"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="759bc" binding="tabbedPane2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="5" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI" size="12" style="1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="19dad" layout-manager="GridLayoutManager" row-count="20" column-count="13" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Zarządzanie książkami"/>
+                    </constraints>
+                    <properties>
+                      <font name="Yu Gothic UI"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ad303" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI" size="13" style="1"/>
+                          <text value="Dodaj książkę:"/>
+                        </properties>
+                      </component>
+                      <vspacer id="6b9b0">
+                        <constraints>
+                          <grid row="5" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="a79f5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Przejrzyj zbiory biblioteki:"/>
+                        </properties>
+                      </component>
+                      <component id="c2502" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Autor | Tytuł | Stan | Gatunek"/>
+                        </properties>
+                      </component>
+                      <component id="64005" class="javax.swing.JList" binding="bookList">
+                        <constraints>
+                          <grid row="17" column="0" row-span="1" col-span="13" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <component id="3ec1a" class="javax.swing.JComboBox" binding="authorsComboBox2">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <hspacer id="4714c">
+                        <constraints>
+                          <grid row="4" column="11" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <component id="408a8" class="javax.swing.JButton" binding="removeBookButton">
+                        <constraints>
+                          <grid row="18" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Usuń zaznaczoną książkę"/>
+                        </properties>
+                      </component>
+                      <vspacer id="61041">
+                        <constraints>
+                          <grid row="19" column="11" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <vspacer id="a1567">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <hspacer id="bf81">
+                        <constraints>
+                          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <component id="cc930" class="javax.swing.JCheckBox" binding="genre9CheckBox">
+                        <constraints>
+                          <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. przygodowa"/>
+                        </properties>
+                      </component>
+                      <component id="60ef1" class="javax.swing.JCheckBox" binding="genre10CheckBox">
+                        <constraints>
+                          <grid row="9" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. obyczajowa"/>
+                        </properties>
+                      </component>
+                      <component id="ddaca" class="javax.swing.JCheckBox" binding="genre8CheckBox">
+                        <constraints>
+                          <grid row="9" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. faktu"/>
+                        </properties>
+                      </component>
+                      <component id="e146b" class="javax.swing.JCheckBox" binding="genre7CheckBox">
+                        <constraints>
+                          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="biografia"/>
+                        </properties>
+                      </component>
+                      <component id="28eb6" class="javax.swing.JCheckBox" binding="genre6CheckBox">
+                        <constraints>
+                          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="horror"/>
+                        </properties>
+                      </component>
+                      <component id="4206d" class="javax.swing.JCheckBox" binding="genre5CheckBox">
+                        <constraints>
+                          <grid row="8" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. historyczna"/>
+                        </properties>
+                      </component>
+                      <component id="3fcb9" class="javax.swing.JButton" binding="addBookButton">
+                        <constraints>
+                          <grid row="10" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Dodaj książkę"/>
+                        </properties>
+                      </component>
+                      <vspacer id="a919">
+                        <constraints>
+                          <grid row="11" column="11" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="ae542" class="javax.swing.JCheckBox" binding="genre4CheckBox">
+                        <constraints>
+                          <grid row="8" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. dziecięca"/>
+                        </properties>
+                      </component>
+                      <component id="ffff0" class="javax.swing.JCheckBox" binding="genre3CheckBox">
+                        <constraints>
+                          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="l. młodzieżowa"/>
+                        </properties>
+                      </component>
+                      <component id="4f579" class="javax.swing.JCheckBox" binding="genre2CheckBox">
+                        <constraints>
+                          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="kryminał"/>
+                        </properties>
+                      </component>
+                      <component id="4b450" class="javax.swing.JCheckBox" binding="genre1CheckBox">
+                        <constraints>
+                          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="fantastyka"/>
+                        </properties>
+                      </component>
+                      <vspacer id="f8bf8">
+                        <constraints>
+                          <grid row="7" column="11" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="a19e0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Autor:"/>
+                        </properties>
+                      </component>
+                      <vspacer id="43622">
+                        <constraints>
+                          <grid row="10" column="10" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="9487e" class="javax.swing.JComboBox" binding="categoryComboBox">
+                        <constraints>
+                          <grid row="13" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <model>
+                            <item value="ogólne"/>
+                            <item value="gatunek"/>
+                            <item value="autor"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="4d336" class="javax.swing.JComboBox" binding="genreComboBox">
+                        <constraints>
+                          <grid row="15" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <component id="67c7e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Tytuł:"/>
+                        </properties>
+                      </component>
+                      <component id="29ec3" class="javax.swing.JTextField" binding="titleTextField">
+                        <constraints>
+                          <grid row="6" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <vspacer id="da1c">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="8d8c9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Imię autora:"/>
+                        </properties>
+                      </component>
+                      <component id="a8528" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI" style="1"/>
+                          <text value="Dodaj autora:"/>
+                        </properties>
+                      </component>
+                      <component id="8a0b2" class="javax.swing.JFormattedTextField" binding="authorsNameTextField">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="28326" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI" style="1"/>
+                          <text value="Nazwisko autora:"/>
+                        </properties>
+                      </component>
+                      <component id="664" class="javax.swing.JFormattedTextField" binding="authorsSurnameTextField">
+                        <constraints>
+                          <grid row="2" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="5b13" class="javax.swing.JButton" binding="addAuthorButton">
+                        <constraints>
+                          <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Dodaj autora"/>
+                        </properties>
+                      </component>
+                      <component id="254f8" class="javax.swing.JComboBox" binding="authorsComboBox">
+                        <constraints>
+                          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <component id="49820" class="javax.swing.JButton" binding="removeAuthorButton">
+                        <constraints>
+                          <grid row="14" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Usuń wybranego autora"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="8afb4" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Zarządzanie czytelnikami"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="709a8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font name="Yu Gothic UI" style="1"/>
+                          <text value="Dodaj czytelnika"/>
+                        </properties>
+                      </component>
+                      <hspacer id="d30ac">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <vspacer id="19852">
+                        <constraints>
+                          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="5b3f2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Imię:"/>
+                        </properties>
+                      </component>
+                      <component id="5f881" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Nazwisko:"/>
+                        </properties>
+                      </component>
+                      <component id="30eff" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Pesel:"/>
+                        </properties>
+                      </component>
+                      <vspacer id="e25dc">
+                        <constraints>
+                          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="581e3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI" style="1"/>
+                          <text value="Przejrzyj i usuń czytelników:"/>
+                        </properties>
+                      </component>
+                      <component id="b1c67" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Imię Nazwisko | Pesel | Ilość książek"/>
+                        </properties>
+                      </component>
+                      <component id="a5012" class="javax.swing.JList" binding="readersList">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                        </properties>
+                      </component>
+                      <component id="b5eb" class="javax.swing.JButton" binding="removeReaderButton">
+                        <constraints>
+                          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Usuń zaznaczonego czytelnika"/>
+                        </properties>
+                      </component>
+                      <vspacer id="aaa66">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="f5be9" class="javax.swing.JFormattedTextField" binding="readerNameTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="e0d41" class="javax.swing.JFormattedTextField" binding="readerSurnameTextField">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="c9247" class="javax.swing.JFormattedTextField" binding="readerPeselTextField">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="7c31d" class="javax.swing.JButton" binding="addReaderButton">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Yu Gothic UI"/>
+                          <text value="Dodaj czytelnika"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="8eb78" binding="panelB" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Wypożyczenie książek"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="672" class="javax.swing.JComboBox" binding="readersComboBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                </properties>
+              </component>
+              <vspacer id="8e928">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="62514" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI" style="1"/>
+                  <text value="Sprawdź stan czytelnika:"/>
+                </properties>
+              </component>
+              <vspacer id="f7ca7">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="6c8af" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI" style="1"/>
+                  <text value="Przejrzyj i zwróć książki:"/>
+                </properties>
+              </component>
+              <component id="953ea" class="javax.swing.JList" binding="readersBookList">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                </properties>
+              </component>
+              <component id="4fa27" class="javax.swing.JButton" binding="returnBookButton">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                  <text value="Zwróć zaznaczoną książkę"/>
+                </properties>
+              </component>
+              <component id="b1b6e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                  <text value="Autor | Tytuł | ID"/>
+                </properties>
+              </component>
+              <component id="cb6ce" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                  <text value="Imię Nazwisko | Pesel | Ilość książek"/>
+                </properties>
+              </component>
+              <component id="37ac9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI" style="1"/>
+                  <text value="Wypożycz wybranemu czytelnikowi:"/>
+                </properties>
+              </component>
+              <component id="2f3a3" class="javax.swing.JComboBox" binding="booksComboBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                </properties>
+              </component>
+              <vspacer id="6af46">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="f9cca" class="javax.swing.JButton" binding="borrowBookButton">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Yu Gothic UI"/>
+                  <text value="Wypożycz wybraną książkę"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <hspacer id="aa9c">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="fadaa">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
