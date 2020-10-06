@@ -32,4 +32,4 @@ This project is simple library system
 
 ## Technologies
 Project is created with:
-* Swing
+* Java Swing
